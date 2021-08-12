@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>David Giansanti</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #ffcc00;
+  background-image: url('images/bg2.jpg');
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 50px;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #8B0000;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navb a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+
+p {
+  display: block;
+  text-align: center;
+}
+p2 {
+  display: block;
+  text-align: left;
+}
+.main p1 {
+	display: block;
+  text-align: center;
+  font-size: 40px;
+}
+
+</style>
+</head>
+<body>
+
+	<main class="main"> 
+		
+      <p2> <img src="images/li.png" width = "80" height="80">
+      <a href ="https://www.linkedin.com/in/david-giansanti-968386147/">My LinkedIn
+      </a>
+    </p2>
+    <br><br>
+      <p2><img src="images/logo-gmail.png" width = "80" height="80">
+      <a href = "mailto:dgian567@gmail.com">dgian567@gmail.com</a>
+      </p2>
+    <br><br><br><br>
+      <hr style="height:2px;border-width:0;color:gray;background-color:#8B0000">
+      
+        <nav class="nav">
+        <a href = "https://github.com/djg230">github</a>
+       
+        <a href="about.html">about me</a>
+
+        <a href = "main.html">home</a>
+      </nav>
+    </div>
+	</main>
+		
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.5/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
